@@ -100,6 +100,7 @@ const BasicForm = (props) => {
         <input
           onChange={emailChangeHandler}
           onBlur={emailBlurHandler}
+          value={enteredEmail}
           type="text"
           id="name"
         />
